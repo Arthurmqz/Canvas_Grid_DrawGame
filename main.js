@@ -21,7 +21,7 @@ function setup() {
   }
 }
 
-//Draw function to user create their drawing
+//Draw function and eventListener to user create their drawing
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height)
   //setup need to be here to not clear our checkered table
